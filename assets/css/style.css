@@ -7,3 +7,12 @@ body {
     font-size: 90px;
     color: rgb(255, 241, 241);
 }
+
+.section-title {
+    font-size: 60px;
+    color: rgb(199, 255, 173);
+}
+
+.project {
+    border: 1px solid rgb(168, 168, 168)
+}
