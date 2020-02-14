@@ -1,6 +1,7 @@
 body {
     background-color: rgb(197, 209, 224);
-    color: white;
+    color: rgb(255, 255, 255);
+    /* margin: 50px */
 }
 
 .author {
@@ -8,11 +9,49 @@ body {
     color: rgb(255, 241, 241);
 }
 
+.author a:hover {
+    cursor: not-allowed;
+}
+
+
 .section-title {
     font-size: 60px;
-    color: rgb(199, 255, 173);
+    color: rgb(216, 255, 198);
+}
+
+/* project section */
+
+.projects {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .project {
-    border: 1px solid rgb(199, 199, 199)
+    border: 1px solid rgb(223, 223, 223);
+    background-color: lightpink;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.project-title {
+    font-size: 30px;
+    color: khaki;
+}
+
+.project p {
+    font-size: 20px;
+}
+
+.project a {
+    font-weight: bold;
+    color: rgb(255, 169, 182);
+    text-decoration:none ;
+}
+
+.project a:hover {
+    font-size: larger;
+    color: lightcoral;
 }
